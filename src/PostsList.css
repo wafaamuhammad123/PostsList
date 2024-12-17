@@ -1,0 +1,133 @@
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  body {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+  }
+  
+  .table-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 85%;  
+    box-sizing: border-box;
+  }
+  
+  .loading-text {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
+
+.header-actions {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    margin-bottom: 20px;  
+  }
+  
+.allposts {
+    text-align: left;  
+    color: #dd9231;    
+  }
+  
+.add-btn {
+    background-color: #dd9231 !important;
+    color: white;
+    border: none;
+    border-radius: none !important;
+    cursor: pointer;
+    width: 120px;
+    padding: 22px !important; 
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.add-btn:hover {
+    background-color: #e49a39 !important;
+}
+
+.actions-column {
+    display: flex;
+    align-items: center;
+    width:150px;
+    gap: 10px;  
+}
+
+.edit-btn {
+    color: white; 
+    background-color: #4caf50; 
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-right: 10px; 
+}
+
+.edit-btn:hover {
+    background-color: #45a049; 
+    transform: scale(1.1); 
+    color: #4caf50 !important;
+    border: 1px solid #4caf50;
+}
+
+.delete-btn {
+    color: white !important;
+    background-color: #f44336; 
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+    transform: scale(1.1);
+    color: #f44336 !important;
+    border: 1px solid #f44336; 
+}
+
+.edit-btn:focus, .delete-btn:focus {
+    outline: none; 
+}
+.btns{display:flex;
+    flex-wrap:wrap;
+    
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-icon-wrapper {
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+}
+
+.modal-icon {
+  font-size: 30px;
+  color: white; 
+}
+
+.modal-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
